@@ -23,28 +23,9 @@
 
 ## Palidroma
 
-1. **User Input Request:**
-
-   - Ask the user to enter a word using `prompt`.
-
-2. **Definition of a Function to Reverse a Word:\***
-
-   - The `reverseWord` function takes a word as input and returns the inverted word;
-     a Use the `split` method to convert the word into an array of characters
-     b `reverse` to invert the array and `join` to merge the inverted elements into a string.
-
-3. **Function Calling and Comparison:**
-
-   - Call the function `reverseWord` with the word entered by the user and assign the result to `reversedUserWord`. Then compare the original word with the inverted one.
-
-4. **Printing the Result:\***
-   - Print a msg using `console.log` based on comparison:
-     a If the word is a palindrome, "The word is a palindrome" is printed
-     b otherwise "The word is not a palindrome".
+## Palindrome
 
 # Even and Odd
-
-## Palindrome
 
 1. **User Input Request:**
 
@@ -52,14 +33,57 @@
 
 2. **Function Definition to Reverse a Word:**
 
-   - Define the `reverseWord` function, which takes a word as input and returns the reversed word. Utilize the `split` method to convert the word into an array of characters, `reverse` to invert the array, and `join` to concatenate the inverted elements back into a string.
+   - `reverseWord` function, which takes a word as input and returns the reversed word.
+   - `split` method to convert the word into an array of characters
+   - `reverse` to invert the array
+   - `join` to concatenate the inverted elements back into a string.
 
 3. **Function Invocation and Comparison:**
 
-   - Invoke (call) the `reverseWord` function with the user's input word and store the result in `reversedUserWord`. Compare the original word with its reversed counterpart.
+   - `reverseWord` to invoke (call) the function with the user's input word.
+   - `reversedUserWord` Memorize the result .
+   - `reversed-one` Compare the original word with its reversed-one.
 
 4. **Result Printing:**
 
-   - Print an informative message using `console.log` based on the comparison:
-     a If the word is a palindrome, output "The word is a palindrome";
-     b b otherwise, print "The word is not a palindrome".
+based on the comparison: - `If  `the word is a palindrome, output "The word is a palindrome". - `otherwise `, print "The word is not a palindrome".
+
+## Even and Odd
+
+1. **User Input Requests:**
+
+   - `prompt` the user to choose between "odd" or "even" using .
+   - `prompt` the user to enter a number from 1 to 5 using
+   - `parseInt` to convert it to an integer using .
+
+2. **User Input and Computer Number Registration:**
+
+   - `evenOddChoice` to Record the user's choice in the variable .
+   - `random` to Generate a random number
+   - `pcNumb` memorizing into the variable
+
+3. **Sum Calculation and Parity Determination:**
+
+   - `sum`Calculate the sum of the user's number/computer
+   - `even or odd` Determine if the sum is using the modulo operator `%` the result in the variable
+   - `result`.mem the result in the variAble
+
+4. **Console Information Printing:**
+
+   - Use `console.log` to print information about:
+     - The user's choice (`evenOddChoice`).
+     - The user's number (`userNumb`).
+     - The computer's number (`pcNumb`).
+     - The sum (`sum`).
+     - The result (even or odd - `result`).
+
+5. **Winner Verification Function Call:**
+
+   - `check` calling the function to determine the winner
+   - (`evenOddChoice`) based on the user's choice and the result - (`result`) of the sum calculation .
+   - `winner` memoriz the result in the variable .
+
+6. **Function Definitions:**
+
+   - `random` function to generate random numbers.
+   - `check` function to verify the winner based on user's choice and sum result.
