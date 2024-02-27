@@ -46,3 +46,24 @@ button {
 button:hover {
   background-color: #c77ba7;
 }
+
+.card {
+  background-color: rgba(255, 255, 255, 0.7); /* trasparenza */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+}
+
+/* gameResults */
+#gameResults {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.resultCard {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* trasparenza  */
+}

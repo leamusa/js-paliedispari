@@ -68,22 +68,21 @@ function updateResultsInHtml(
   sum,
   winner
 ) {
-  // Update span elements with results
-  document.getElementById(
-    "userChoiceResult"
-  ).innerText = `User's choice: ${userChoice}`;
-  document.getElementById(
-    "playerNumberResult"
-  ).innerText = `Player's number: ${playerNumber}`;
-  document.getElementById(
-    "computerNumberResult"
-  ).innerText = `Computer's number: ${computerNumber}`;
-  document.getElementById("sumResult").innerText = `Sum: ${sum}`;
-  document.getElementById("resultResult").innerText = `Result: ${winner}`;
-  document.getElementById("winnerResult").innerText = `Winner: ${winner}`;
-
-  // Create a new paragraph element to show results and append it to the "gameResults" container
+  // Create a new paragraph element to show results
   const resultParagraph = document.createElement("p");
-  resultParagraph.innerHTML = `User's choice: ${userChoice}, Player's number: ${playerNumber}, Computer's number: ${computerNumber}, Sum: ${sum}, Winner: ${winner}`;
-  document.getElementById("gameResults").appendChild(resultParagraph);
+  resultParagraph.innerHTML = `
+    User's choice: ${userChoice}, 
+    Player's number: ${playerNumber}, 
+    Computer's number: ${computerNumber}, 
+    Sum: ${sum}, 
+    Result: ${winner}, 
+    Winner: ${winner}
+  `;
+
+  // Aggiorna il contenitore "gameResults" rimuovendo i paragrafi precedenti
+  const gameResultsContainer = document.getElementById("gameResults");
+  gameResultsContainer.innerHTML = "";
+
+  // Appendi il nuovo paragrafo al contenitore "gameResults"
+  gameResultsContainer.appendChild(resultParagraph);
 }
