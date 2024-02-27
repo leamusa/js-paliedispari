@@ -1,4 +1,4 @@
-# Palidroma
+## Palidroma
 
 1. Ask the user to enter a word following this rule:
    < **you need to know if the entered word is palindroma ** >
@@ -7,8 +7,8 @@
 
 1. The user shall:
 
-- chooses odd or even
-- insert number 1 to 5.
+- chooses odd or even numbers
+- chooses  from 1 to 5 numbers
 
 2. We generate a `random number` (always from 1 to 5) for the computer (using a function).
 
@@ -21,15 +21,13 @@
 
 # tools
 
-## Palidroma
 
-## Palindrome
 
-# Even and Odd
+## Even and Odd
 
 1. **User Input Request:**
 
-   - Prompt the user to input a word using `prompt`.
+   - `prompt` the user to input a word 
 
 2. **Function Definition to Reverse a Word:**
 
@@ -46,7 +44,9 @@
 
 4. **Result Printing:**
 
-based on the comparison: - `If  `the word is a palindrome, output "The word is a palindrome". - `otherwise `, print "The word is not a palindrome".
+based on the comparison: 
+- `If  `the word is a palindrome, output "The word is a palindrome". 
+- `otherwise `, print "The word is not a palindrome".
 
 ## Even and Odd
 
