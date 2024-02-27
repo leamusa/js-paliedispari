@@ -1,4 +1,5 @@
-## Description: 
+## Description:
+
 # Palidrome
 
 1. Ask the user to enter a word following this rule:
@@ -9,7 +10,7 @@
 1. The user shall:
 
 - chooses odd or even numbers
-- chooses  from 1 to 5 numbers
+- chooses from 1 to 5 numbers
 
 2. We generate a `random number` (always from 1 to 5) for the computer (using a function).
 
@@ -20,19 +21,13 @@
 - We always write in Italian the steps we want to do
 - We always write only one piece of code at a time, if it works then we move on.
 
-
-
-
-
-
-
 # tools
 
 ## Palidrome
 
 1. **User Input Request:**
 
-   - `prompt` the user to input a word 
+   - `prompt` the user to input a word
 
 2. **Function Definition to Reverse a Word:**
 
@@ -49,21 +44,22 @@
 
 4. **Result Printing:**
 
-based on the comparison: 
-- `If  `the word is a palindrome, output "The word is a palindrome". 
+based on the comparison:
+
+- `If  `the word is a palindrome, output "The word is a palindrome".
 - `otherwise `, print "The word is not a palindrome".
 
 ## Even and Odd
 
 1. **User Input Requests:**
 
-   - `prompt` the user to choose between "odd" or "even" 
-   - `prompt` the user to enter a number from 1 to 5 
-   - `parseInt` to convert it to an integer 
+   - `prompt` the user to choose between "odd" or "even"
+   - `prompt` the user to enter a number from 1 to 5
+   - `parseInt` to convert it to an integer
 
 2. **User Input and Computer Number Registration:**
 
-   - `evenOddChoice` to Record the user's choice in the variable 
+   - `evenOddChoice` to Record the user's choice in the variable
    - `random` to Generate a random number
    - `pcNumb` memorizing the variable
 
@@ -92,3 +88,10 @@ based on the comparison:
 
    - `random` function to generate random numbers.
    - `check` function to verify the winner based on user's choice and sum result.
+   - `quitGame()`+ alert attaching event listener on `click`
+
+7. **to play several times**
+
+- `while` cycle
+- `userInput` prompting the user to play again?
+- `.toLowerCase()`to play again input

@@ -3,9 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Even Odd Game</title>
   </head>
   <body>
+    <!-- Add buttons for user interaction -->
+    <!-- Input fields for user interaction -->
+    <!-- index.html -->
+
+    <!-- Container for even/odd choice -->
+    <div class="gameContainer" id="evenOddContainer">
+      <label for="evenOddChoice">Choose "even" or "odd":</label>
+      <input type="text" id="evenOddChoice" placeholder="Enter even or odd" />
+      <button id="chooseEvenOddButton">Choose Even/Odd</button>
+    </div>
+
+    <!-- Container for number input -->
+    <div class="gameContainer" id="numberContainer">
+      <label for="userNumber">Enter a number from 1 to 5:</label>
+      <input type="number" id="userNumber" placeholder="1-5" />
+      <button id="chooseNumberButton">Choose Number</button>
+    </div>
+
+    <!-- Connected buttons for user interaction -->
+    <button id="playGameButton">Play Game</button>
+    <button id="quitButton">Quit</button>
+
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
