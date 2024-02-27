@@ -7,10 +7,6 @@
     <title>Even Odd Game</title>
   </head>
   <body>
-    <!-- Add buttons for user interaction -->
-    <!-- Input fields for user interaction -->
-    <!-- index.html -->
-
     <!-- Container for even/odd choice -->
     <div class="gameContainer" id="evenOddContainer">
       <label for="evenOddChoice">Choose "even" or "odd":</label>
@@ -19,7 +15,7 @@
     </div>
 
     <!-- Container for number input -->
-    <div class="gameContainer" id="numberContainer">
+    <div class="gameContainer" id="numbContainer">
       <label for="userNumber">Enter a number from 1 to 5:</label>
       <input type="number" id="userNumber" placeholder="1-5" />
       <button id="chooseNumberButton">Choose Number</button>
@@ -28,6 +24,19 @@
     <!-- Connected buttons for user interaction -->
     <button id="playGameButton">Play Game</button>
     <button id="quitButton">Quit</button>
+
+    <!-- HTML structure with result containers -->
+    <div id="evenOddResult">
+      <p>User's choice: <span id="userChoiceResult"></span></p>
+      <p>User's number: <span id="userNumberResult"></span></p>
+      <p>Player's number: <span id="playerNumberResult"></span></p>
+      <p>Computer's number: <span id="computerNumberResult"></span></p>
+      <p>Sum: <span id="sumResult"></span></p>
+      <p>Result: <span id="resultResult"></span></p>
+      <p>Winner: <span id="winnerResult"></span></p>
+    </div>
+
+    <div id="gameResults"></div>
 
     <script src="./assets/js/main.js"></script>
   </body>
