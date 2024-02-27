@@ -61,9 +61,35 @@ button:hover {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.resultCard {
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin-bottom: 10px;
-  background-color: rgba(255, 255, 255, 0.8); /* trasparenza  */
+
+/* Add btns*/
+#playGameButton,
+#quitButton {
+  background-color: #e29ac1;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#playGameButton:hover,
+#quitButton:hover {
+  background-color: #c77ba7;
+}
+select {
+  padding: 8px;
+  border-radius: 5px;
+  width: 150px;
+  appearance: none; /* Nasconde la freccia del menu su alcuni browser */
+  background-color: #ffffff; /* Colore di sfondo */
+  border: 1px solid #d3a5ba; /* Colore del bordo */
+  color: #6d5a6e; /* Colore del testo */
+}
+
+/* Stile per quando il mouse è sopra il select */
+select:hover {
+  color: #c77ba7; /* Cambia il colore del bordo quando il mouse è sopra */
 }
