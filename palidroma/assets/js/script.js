@@ -1,29 +1,29 @@
-// Definisci una funzione per invertire una parola
+// Ask the user to enter a word
+var userWord = prompt("Enter a word");
+
+// Define a function to reverse a word
 function reverseWord(word) {
-  // Convert la parola in un array di caratteri
-  var charArray = word.split("");
+  // Convert the word into an array of characters
+  var characArray = word.split("");
 
-  // Invert l'array
-  var reversedArray = charArray.reverse();
+  // Reverse the array
+  var reversedArray = characArray.reverse();
 
-  // Connect l'array invertito in una stringa
+  // Join the reversed array into a string
   var reversedWord = reversedArray.join("");
 
-  // Return la parola invertita
+  // Return the reversed word
   return reversedWord;
 }
 
-// Ask all'utente di inserire una parola
-var userWord = prompt("Inserisci una parola");
-
-// Call o invoca la funzione per invertire la parola inserita dall'utente
+// Call the function to reverse the user-entered word
 var reversedUserWord = reverseWord(userWord);
 
-// Confronta la parola originale con quella invertita
+// Compare the original word with the reversed one
 if (userWord === reversedUserWord) {
-  // Print un messaggio se la parola è un palindromo
-  console.log("La parola è un palindromo");
+  // Print a message if the word is a palindrome
+  console.log("The word is a palindrome");
 } else {
-  // Print un messaggio se la parola non è un palindromo
-  console.log("La parola non è un palindromo");
+  // Print a message if the word is not a palindrome
+  console.log("The word is not a palindrome");
 }
