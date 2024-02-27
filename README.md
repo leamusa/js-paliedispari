@@ -1,7 +1,8 @@
-## Palidroma
+## Description: 
+# Palidrome
 
 1. Ask the user to enter a word following this rule:
-   < **you need to know if the entered word is palindroma ** >
+   < **you need to know if the entered word is palindrome ** >
 
 # Even and Odd
 
@@ -19,11 +20,15 @@
 - We always write in Italian the steps we want to do
 - We always write only one piece of code at a time, if it works then we move on.
 
+
+
+
+
+
+
 # tools
 
-
-
-## Even and Odd
+## Palidrome
 
 1. **User Input Request:**
 
@@ -39,7 +44,7 @@
 3. **Function Invocation and Comparison:**
 
    - `reverseWord` to invoke (call) the function with the user's input word.
-   - `reversedUserWord` Memorize the result .
+   - `reversedUserWord` Memorize the result.
    - `reversed-one` Compare the original word with its reversed-one.
 
 4. **Result Printing:**
@@ -52,21 +57,21 @@ based on the comparison:
 
 1. **User Input Requests:**
 
-   - `prompt` the user to choose between "odd" or "even" using .
-   - `prompt` the user to enter a number from 1 to 5 using
-   - `parseInt` to convert it to an integer using .
+   - `prompt` the user to choose between "odd" or "even" 
+   - `prompt` the user to enter a number from 1 to 5 
+   - `parseInt` to convert it to an integer 
 
 2. **User Input and Computer Number Registration:**
 
-   - `evenOddChoice` to Record the user's choice in the variable .
+   - `evenOddChoice` to Record the user's choice in the variable 
    - `random` to Generate a random number
-   - `pcNumb` memorizing into the variable
+   - `pcNumb` memorizing the variable
 
 3. **Sum Calculation and Parity Determination:**
 
-   - `sum`Calculate the sum of the user's number/computer
-   - `even or odd` Determine if the sum is using the modulo operator `%` the result in the variable
-   - `result`.mem the result in the variAble
+   - `sum` Calculate the sum of the number for the user/computer
+   - `even or odd` Determine if the sum is using the modulo operator `%`
+   - `result`.mem the result in the variable
 
 4. **Console Information Printing:**
 
@@ -81,7 +86,7 @@ based on the comparison:
 
    - `check` calling the function to determine the winner
    - (`evenOddChoice`) based on the user's choice and the result - (`result`) of the sum calculation .
-   - `winner` memoriz the result in the variable .
+   - `winner` memoriz the result in the variable.
 
 6. **Function Definitions:**
 
